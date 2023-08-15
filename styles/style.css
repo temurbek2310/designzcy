@@ -947,4 +947,202 @@ html {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.container form .info {
+  margin-top: 34.62px;
+  margin-bottom: 16px;
+  width: 92px;
+  color: var(--primary, #3D3D3F);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  height: 19px;
+  display: block;
+  margin-left: 330px;
+}
+.container form .input {
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 4px 120px 0px rgba(0, 0, 0, 0.11);
+  color: #515155;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.4;
+  border: transparent;
+  margin-left: 330px;
+  width: 719px;
+  height: 191px;
+  display: block;
+}
+.container form .submit {
+  margin-left: 880px;
+  margin-top: 51px;
+  width: 207px;
+  border-radius: 5px;
+  opacity: 0.85;
+  background: var(--gd-color, linear-gradient(0deg, #F35F2F 0%, rgba(243, 95, 47, 0.75) 100%));
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  border: transparent;
+  height: 53px;
+}
+.container footer {
+  margin-top: 150px;
+  display: flex;
+}
+.container footer .logo span {
+  display: flex;
+  align-items: center;
+  gap: 7.41px;
+}
+.container footer .logo span .foot__title {
+  color: var(--primary, #3D3D3F);
+  font-family: Rubik;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.container footer .logo .foot_text1 {
+  margin-top: 20px;
+  width: 320px;
+  color: var(--medium-dark, #646464);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  /* 25.2px */
+}
+.container footer .logo .foot_text2 {
+  margin-top: 16px;
+  color: var(--medium-dark, #646464);
+  font-family: DM Sans;
+  font-size: 14px;
+  width: 320px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  /* 25.2px */
+}
+.container footer .logo .icon {
+  margin-top: 16px;
+  display: flex;
+  gap: 10px;
+}
+.container footer .logo .icon .icon_btn4 {
+  border: transparent;
+  color: #646464;
+  font-size: 25px;
+}
+.container footer .logo .icon .icon_btn5 {
+  border: transparent;
+  color: #646464;
+  font-size: 25px;
+}
+.container footer .logo .icon .icon_btn6 {
+  border: transparent;
+  color: #646464;
+  font-size: 25px;
+}
+.container footer .logo .icon .icon_btn7 {
+  border: transparent;
+  color: #646464;
+  font-size: 25px;
+}
+.container footer .footer_list_wrapper {
+  margin-left: 60px;
+  display: flex;
+  gap: 165px;
+}
+.container footer .footer_list_wrapper .footer_list {
+  width: 72px;
+  height: 206px;
+}
+.container footer .footer_list_wrapper .footer_list .footer_title {
+  margin-bottom: 24px;
+  color: var(--dark, #323232);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.container footer .footer_list_wrapper .footer_list li .footer_list_item {
+  color: var(--medium-dark, #646464);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  margin-bottom: 24px;
+}
+.container footer .subs {
+  margin-left: 166px;
+}
+.container footer .subs h4 {
+  margin-bottom: 19px;
+  color: var(--primary, #3D3D3F);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  /* 100% */
+}
+.container footer .subs p {
+  margin-bottom: 14.61px;
+  width: 277px;
+  color: var(--medium-dark, #646464);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  /* 25.2px */
+}
+.container footer .subs .email {
+  width: 292px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1.1px solid #E1E2E4;
+  background: #FFF;
+  color: rgba(117, 117, 117, 0.65);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+}
+.container footer .subs .subscribe {
+  border: none;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  margin-top: 12px;
+  width: 292px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1.1px solid #E1E2E4;
+  opacity: 0.85;
+  background: linear-gradient(360deg, #F35F2F 0%, rgba(243, 95, 47, 0.75) 100%);
 }/*# sourceMappingURL=style.css.map */
